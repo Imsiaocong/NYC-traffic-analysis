@@ -1,0 +1,2 @@
+-- Drop columns we do not need:
+ALTER TABLE collision REPLACE COLUMNS(crashdate STRING, crashtime STRING, borough STRING, latitude DOUBLE, longitude DOUBLE, location STRING, onstreet STRING, personinjured INT, personkilled INT, pedestrianinjured INT, pedestriankilled INT, cyclistinjured INT, cyclistkilled INT, motoristinjured INT, motoristkilled INT, factor1 STRING, collisionid INT, code1 STRING);
